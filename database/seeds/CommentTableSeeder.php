@@ -1,4 +1,5 @@
 <?php
+use App\Comment;
 use Illuminate\Database\Seeder;
 
 /**
