@@ -17,19 +17,23 @@ class ShirtTableSeeder extends Seeder {
 
         $shirts = [
             [
-                'name' => 'shirt1',
+                'name' => 'shirt1.png',
+                'mime' => 'image/png',
                 'user_id' => 1,
             ],
             [
-                'name' => 'shirt2',
+                'name' => 'shirt2.png',
+                'mime' => 'image/png',
                 'user_id' => 1,
             ],
             [
-                'name' => 'shirt3',
+                'name' => 'shirt3.png',
+                'mime' => 'image/png',
                 'user_id' => 2,
             ],
             [
-                'name' => 'shirt4',
+                'name' => 'shirt4.png',
+                'mime' => 'image/png',
                 'user_id' => 3,
             ],
         ];
