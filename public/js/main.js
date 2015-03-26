@@ -190,7 +190,8 @@ $(function(){
 
 
 	$('#eyedropper').on('click', function(){
-		html2canvas($("#tshirtdesign"), {
+		html2canvas($("#tshirtdesign"), 
+			allowTaint: true, {
             onrendered: function(canvas) {
                 theCanvas = canvas;
                 canvas.id = "eyedropimage";
