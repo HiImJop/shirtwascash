@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'ShirtController@index');
 Route::get('home', 'HomeController@index');
 
 Route::controllers([
