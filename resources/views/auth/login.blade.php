@@ -9,6 +9,8 @@
 		<input type="email" name="email" value="{{ old('email') }}" class="input" placeholder="email">
 		<input type="password" name="password" class="input"  placeholder="password">
 		<button type="submit" class="submit">Login</button>
+		<a class="register_button" href="{{ url('/auth/register') }}">Register</a>
+
 		<label class="remember_me"><input type="checkbox" name="remember"> Remember Me</label>
 		<a class="forgot_password" href="{{ url('/password/email') }}">Forgot Your Password?</a>
 	</form>
