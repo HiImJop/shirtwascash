@@ -15,22 +15,7 @@
   <body>
 
 
-<!--   <div class="main-nav">
-    <div class="row">
-      <div class="large-12">
-        <div id="Logo"><a href="/"><img src="{{ asset('/img/shirtwascash_logo.png') }}"></a></div>
-        <nav class="navigation">
-          <ul>
-            <li><a href="#">Sign in</a></li>
-            <li><a href="#">Register</a></li>
-            <li><a href="#drop-files" class="create" id="CreateShirt">Create Shirt</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </div>
 
- -->
 
 	@yield('content')
 
